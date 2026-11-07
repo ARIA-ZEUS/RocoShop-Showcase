@@ -3,11 +3,11 @@
 
 # RocoShop
 
-### Polyglot Digital Commerce Platform
+### Polyglot E-Commerce Platform
 
-**A multi-technology software platform combining digital commerce, intelligent systems, media processing, distributed technologies, and production engineering.**
+**A multi-technology commerce platform built around digital products, secure transactions, custom integrations, and production automation.**
 
-[![Live Platform](https://img.shields.io/badge/Explore_Live_Platform-1CE8FF?style=for-the-badge&logo=googlechrome&logoColor=0D1117)](https://rocoshop.ir)
+[![Live Platform](https://img.shields.io/badge/Visit_Live_Platform-1CE8FF?style=for-the-badge&logo=googlechrome&logoColor=0D1117)](https://rocoshop.ir)
 ![Project Type](https://img.shields.io/badge/Project-Proprietary-0D1117?style=for-the-badge&logo=github&logoColor=FFFFFF)
 ![Architecture](https://img.shields.io/badge/Architecture-Polyglot-0D1117?style=for-the-badge)
 
@@ -17,314 +17,245 @@
 
 ## Overview
 
-RocoShop is a digital commerce and software platform developed to manage, publish, and distribute digital products through an integrated web environment.
+RocoShop is a digital commerce platform developed to manage the complete lifecycle of digital products, from catalog management and publishing to customer accounts, checkout, and distribution.
 
-Originally developed with PHP, the project has evolved into a polyglot codebase incorporating multiple programming languages, application frameworks, machine learning technologies, media-processing tools, and infrastructure integrations.
+Originally developed with PHP, the platform has evolved into a polyglot codebase that brings together multiple programming languages, application frameworks, custom APIs, and automated operational workflows.
 
-Laravel remains part of the application foundation, while additional technologies support specialized functionality across different parts of the system.
+Laravel remains an important part of the backend foundation, while supporting technologies address specialized application, administrative, and integration requirements.
 
-The project covers application engineering, API development, frontend interfaces, data processing, automation, security, infrastructure integration, and production operations.
+The project is designed around maintainable business logic, secure customer workflows, operational reliability, and continuous development.
 
-**Engineering focus:** Polyglot architecture, system integration, performance, security, automation, and long-term maintainability.
+**Engineering Focus:** E-commerce architecture, backend engineering, API integration, authentication, payment workflows, automation, and production operations.
 
-## Platform Capabilities
+## E-Commerce Capabilities
 
 | Area | Capabilities |
 |---|---|
-| Digital Commerce | Product publishing, catalog management, and digital product distribution |
-| Customer Accounts | Authentication, account management, and identity integrations |
-| Payments | Checkout workflows and payment gateway integration |
-| Administration | Product management, operational tools, and administrative interfaces |
-| API Engineering | Custom APIs, external integrations, and cross-technology communication |
-| AI & Recommendation Systems | Machine learning components and recommendation-related development |
-| Media Processing | Video processing, transcoding, and media-format handling |
-| Content Management | Product media, generated assets, and content distribution integrations |
-| Data Processing | Database operations, background processing, and data workflows |
-| Infrastructure | Cloud integrations, storage technologies, and deployment operations |
-| Monitoring | Logging, operational monitoring, and troubleshooting |
-| Automation | Git-based deployment, scheduled tasks, and automated workflows |
+| Product Catalog | Digital product organization, publishing, and catalog management |
+| Product Administration | Product creation, editing, configuration, and management workflows |
+| Customer Accounts | Registration, authentication, account management, and identity integrations |
+| Checkout & Payments | Checkout workflows, transaction handling, and payment gateway integration |
+| Digital Distribution | Product access and distribution workflows |
+| API Integrations | Custom application APIs and external service integrations |
+| Administration | Operational dashboards, administrative controls, and management tools |
+| Security | Authorization boundaries, account protection, and input validation |
+| Background Jobs | Queue-backed operations, scheduled tasks, and automated processing |
+| Data Management | Structured data storage, application records, and data integrity |
+| Production Operations | Deployment automation, application health checks, and troubleshooting |
 
 ## Technology Ecosystem
 
-RocoShop incorporates technologies across several engineering disciplines.
+RocoShop uses multiple technologies to support its commerce functionality.
 
-The following represents the project's broader codebase, development work, and integration footprint. Individual components may have different deployment responsibilities and are not necessarily separate production services.
+The technologies listed below represent different responsibilities within the codebase and development workflow. They do not imply that every component is deployed as an independent production service.
 
-### Application Development
+### Backend & Application Development
 
 ![PHP](https://img.shields.io/badge/PHP-0D1117?style=flat-square&logo=php&logoColor=777BB4)
 ![Laravel](https://img.shields.io/badge/Laravel-0D1117?style=flat-square&logo=laravel&logoColor=FF2D20)
 ![Python](https://img.shields.io/badge/Python-0D1117?style=flat-square&logo=python&logoColor=3776AB)
 ![Django](https://img.shields.io/badge/Django-0D1117?style=flat-square&logo=django&logoColor=44B78B)
-![JavaScript](https://img.shields.io/badge/JavaScript-0D1117?style=flat-square&logo=javascript&logoColor=F7DF1E)
-![MySQL](https://img.shields.io/badge/MySQL-0D1117?style=flat-square&logo=mysql&logoColor=4479A1)
 
-The application layer includes PHP-based business logic, Laravel components, Python development, Django-related functionality, and database-backed operations.
+The application combines PHP/Laravel business logic with supporting Python-based development and Django components.
 
-Different technologies are used to address specific application and integration requirements.
+Backend responsibilities include:
 
-### Frontend & User Interfaces
+- Product and catalog management
+- Customer account workflows
+- Checkout and payment integrations
+- Administrative functionality
+- Custom API development
+- Background operations
+- Business-rule implementation
+
+### Frontend & User Experience
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-0D1117?style=flat-square&logo=javascript&logoColor=F7DF1E)
 ![HTML5](https://img.shields.io/badge/HTML5-0D1117?style=flat-square&logo=html5&logoColor=E34F26)
 ![CSS](https://img.shields.io/badge/CSS-0D1117?style=flat-square&logo=css&logoColor=663399)
 ![Vite](https://img.shields.io/badge/Vite-0D1117?style=flat-square&logo=vite&logoColor=646CFF)
-![Lit](https://img.shields.io/badge/Lit-0D1117?style=flat-square&logo=lit&logoColor=324FFF)
 
-Frontend engineering also includes work with:
+Frontend engineering focuses on commerce-oriented interfaces, including:
 
-- Closure Library
-- Lit
-- Polymer
-- Structured Page Fragments (SPF)
+- Product discovery and navigation
+- Product detail pages
+- Customer account interfaces
+- Checkout usability
+- Responsive layouts
+- Administrative interfaces
+- Frontend asset optimization
 
-These technologies contribute to frontend architecture, component development, and client-side application behavior.
+### Database & Application Data
 
-### Artificial Intelligence & Machine Learning
-
-![TensorFlow](https://img.shields.io/badge/TensorFlow-0D1117?style=flat-square&logo=tensorflow&logoColor=FF6F00)
-![PyTorch](https://img.shields.io/badge/PyTorch-0D1117?style=flat-square&logo=pytorch&logoColor=EE4C2C)
-![Python](https://img.shields.io/badge/Python-0D1117?style=flat-square&logo=python&logoColor=3776AB)
-
-Machine learning development covers recommendation-related algorithms, model processing, and intelligent functionality within the broader project.
-
-**Technology focus**
-
-- Machine learning development
-- Recommendation algorithms
-- Model integration
-- Python-based AI components
-- Data-driven application functionality
-
-### Data Engineering & Processing
-
-![Apache Spark](https://img.shields.io/badge/Apache%20Spark-0D1117?style=flat-square&logo=apachespark&logoColor=E25A1C)
-![Python](https://img.shields.io/badge/Python-0D1117?style=flat-square&logo=python&logoColor=3776AB)
 ![MySQL](https://img.shields.io/badge/MySQL-0D1117?style=flat-square&logo=mysql&logoColor=4479A1)
 
-Data engineering work incorporates database-backed application workflows and Apache Spark technologies for data processing.
+Data management supports product information, customer records, transaction-related workflows, and application state.
+
+Engineering priorities include data integrity, reliable persistence, controlled database changes, and maintainable data access patterns.
+
+### API Engineering & Integrations
+
+Custom APIs and service integrations connect commerce workflows with supporting systems.
 
 Relevant areas include:
 
-- Data transformation
-- Batch-oriented processing
-- Application data management
-- Data pipeline development
-- Integration with other application components
-
-### Media Processing & Streaming
-
-![FFmpeg](https://img.shields.io/badge/FFmpeg-0D1117?style=flat-square&logo=ffmpeg&logoColor=007808)
-![Python](https://img.shields.io/badge/Python-0D1117?style=flat-square&logo=python&logoColor=3776AB)
-
-Media-related engineering includes video processing, format handling, encoding technologies, and streaming components.
-
-**Processing & Transcoding**
-
-- FFmpeg
-- Video format conversion
-- Media processing workflows
-
-**Streaming Technologies**
-
-- MPEG-DASH
-- HLS
-
-**Video Codecs**
-
-- VP9
-- AV1
-- H.264
-
-**Media Protection**
-
-- Widevine DRM technologies
-
-These technologies form part of the project's media-related engineering work, including processing and integration with media delivery components.
-
-### Distributed Systems & Service Communication
-
-![Apache](https://img.shields.io/badge/Apache-0D1117?style=flat-square&logo=apache&logoColor=D22128)
-
-The project's distributed-systems engineering work includes:
-
-- gRPC
-- Apache ZooKeeper
-- Service coordination
+- Payment gateway integrations
+- External authentication providers
+- Account-related integrations
+- Administrative API endpoints
+- Third-party business services
 - Cross-component communication
-- Distributed application technologies
-- API-based integration
+- Integration error handling
 
-**Network Protocols**
+The integration layer is designed to keep external dependencies manageable within the broader application.
 
-- HTTP/3
-- QUIC
-- HTTP/HTTPS
+### Infrastructure & Deployment
 
-The architecture combines technologies based on component responsibilities rather than treating every subsystem as an independent service.
-
-### Cloud Infrastructure & Storage
-
-![Google Cloud](https://img.shields.io/badge/Google%20Cloud-0D1117?style=flat-square&logo=googlecloud&logoColor=4285F4)
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-0D1117?style=flat-square&logo=cloudflare&logoColor=F38020)
-
-Cloud-related engineering includes work with:
-
-- Google Cloud Storage
-- Cloud-based object storage
-- Media delivery and CDN integrations
-- Cloudflare services
-- Application storage workflows
-
-Storage and delivery technologies are integrated according to application and media-processing requirements.
-
-### Infrastructure & Web Servers
-
-![Linux](https://img.shields.io/badge/Linux-0D1117?style=flat-square&logo=linux&logoColor=FCC624)
-![Debian](https://img.shields.io/badge/Debian-0D1117?style=flat-square&logo=debian&logoColor=A81D33)
-![Apache](https://img.shields.io/badge/Apache-0D1117?style=flat-square&logo=apache&logoColor=D22128)
-![Bash](https://img.shields.io/badge/Bash-0D1117?style=flat-square&logo=gnubash&logoColor=4EAA25)
-
-Infrastructure-related technologies include:
-
-- Linux environments
-- SUSE and Debian-based systems
-- Apache HTTP Server
-- Lighttpd
-- Shell automation
-- Server configuration and operations
-
-### Monitoring & Observability
-
-![Prometheus](https://img.shields.io/badge/Prometheus-0D1117?style=flat-square&logo=prometheus&logoColor=E6522C)
-![Grafana](https://img.shields.io/badge/Grafana-0D1117?style=flat-square&logo=grafana&logoColor=F46800)
-![Google Cloud](https://img.shields.io/badge/Google%20Cloud-0D1117?style=flat-square&logo=googlecloud&logoColor=4285F4)
-
-Monitoring and observability technologies include:
-
-- Prometheus
-- Grafana
-- Google Cloud Operations / Stackdriver
-- Application logging
-- Runtime monitoring
-- Operational diagnostics
-
-### Development & Deployment
-
 ![Git](https://img.shields.io/badge/Git-0D1117?style=flat-square&logo=git&logoColor=F05032)
 ![GitHub](https://img.shields.io/badge/GitHub-0D1117?style=flat-square&logo=github&logoColor=FFFFFF)
 ![Bash](https://img.shields.io/badge/Bash-0D1117?style=flat-square&logo=gnubash&logoColor=4EAA25)
-![Vite](https://img.shields.io/badge/Vite-0D1117?style=flat-square&logo=vite&logoColor=646CFF)
+![Linux](https://img.shields.io/badge/Linux-0D1117?style=flat-square&logo=linux&logoColor=FCC624)
 
-Development and deployment practices include:
+Infrastructure and delivery engineering includes:
 
 - Git-based source management
-- Production deployment automation
+- Automated deployment workflows
 - Frontend asset builds
-- Application preparation and validation
+- Application configuration management
 - Controlled releases
 - Rollback planning
+- Cloudflare integration
+- Runtime health checks
 - Production troubleshooting
 
-## Architecture Overview
+## E-Commerce Architecture
 
-RocoShop combines multiple engineering responsibilities within a broader application ecosystem.
+RocoShop combines customer-facing commerce functionality with backend business logic, administrative systems, persistent data, and external integrations.
 
-The following diagram is a conceptual overview of functional areas, not an exact representation of the private production network or service topology.
+The diagram below illustrates the platform's functional responsibilities at a high level. It is not a detailed representation of the private production infrastructure.
 
 ```mermaid
 flowchart TB
-    U["Web Clients"] --> W["Web Application"]
-    W --> A["Application & Business Logic"]
+    U["Customers"] --> CF["Cloudflare"]
+    CF --> WEB["E-Commerce Web Application"]
 
-    A --> DB["Data & Storage"]
-    A --> API["API & Integration Layer"]
-    A --> JOB["Background Processing"]
+    WEB --> CAT["Product Catalog"]
+    WEB --> ACC["Customer Accounts"]
+    WEB --> CART["Checkout"]
 
-    API --> ML["AI & Recommendation Components"]
-    API --> MEDIA["Media Processing Components"]
-    API --> EXT["External Services"]
+    CAT --> APP["Application & Business Logic"]
+    ACC --> APP
+    CART --> APP
 
-    JOB --> DATA["Data Processing"]
-    MEDIA --> STREAM["Streaming & Delivery Technologies"]
+    APP --> DB["Database & Storage"]
+    APP --> PAY["Payment Gateway Integration"]
+    APP --> ORD["Orders & Digital Product Access"]
+    APP --> API["External APIs & Services"]
+    APP --> JOB["Queues & Background Jobs"]
 
-    A --> ADMIN["Administration"]
+    ADMIN["Administration & Management"] --> APP
 
-    OPS["Deployment & Operations"] -.-> W
-    OPS -.-> A
-    MON["Monitoring & Observability"] -.-> OPS
+    OPS["Deployment & Operations"] -.-> WEB
+    OPS -.-> APP
 ```
 
-The platform's implementation spans application development, specialized components, integrations, and supporting infrastructure.
+The architecture focuses on coordinating business operations through a consistent application environment while allowing specialized components to support particular responsibilities.
 
 ## Engineering & Operations
 
-### Application Engineering
+### E-Commerce Application Development
 
-RocoShop combines application logic, frontend interfaces, data management, and specialized components within a coordinated software environment.
+RocoShop's application layer manages core commerce functionality, including product administration, customer workflows, checkout, and digital product access.
 
-Its architecture has evolved beyond the project's original PHP-based implementation.
+The platform has evolved beyond its original PHP implementation while retaining a coordinated approach to business logic.
 
-### API & Integration Engineering
+### Authentication & Account Management
 
-The project incorporates custom API development and integration with external services.
+Account-related engineering includes:
 
-Engineering responsibilities include communication between components implemented using different technologies.
+- Authentication workflows
+- Authorization and access controls
+- External identity provider integrations
+- Account management
+- Administrative access boundaries
+- Session and account security considerations
 
-### AI & Data Engineering
+### Payment Integration
 
-Machine learning and data-processing technologies are part of the broader codebase, including work involving TensorFlow, PyTorch, and Apache Spark.
+Checkout and payment functionality integrates commerce workflows with external payment services.
 
-### Media Engineering
+Engineering priorities include transaction integrity, authorization, validation, error handling, and consistent application state.
 
-Media-related development incorporates FFmpeg, video codecs, adaptive streaming technologies, and related integrations.
+### API & Integration Development
 
-### Deployment & Maintenance
+Custom APIs connect internal application components and external business services.
 
-Production operations involve source-controlled releases, asset preparation, configuration management, troubleshooting, health checks, and operational maintenance.
+The goal is to provide maintainable integrations while preserving separation between commerce logic and external dependencies.
 
-## Security & Design Considerations
+### Administration & Operations
 
-Security is an important part of the platform's engineering process.
+Administrative functionality supports day-to-day platform management.
 
-Development priorities include:
+Areas of development include:
 
-- Authentication and authorization boundaries
-- Account and administrative access controls
-- Secure API integration
-- Input validation and data integrity
-- Protection of sensitive information
-- Controlled production deployments
-- Operational diagnostics and recovery planning
+- Product publishing and maintenance
+- Administrative workflows
+- Account-related management
+- Application configuration
+- Operational troubleshooting
+- Internal management tools
 
-These represent engineering practices and development priorities, not claims of independent security certification.
+### Automation & Deployment
+
+Production delivery incorporates version-controlled releases, application preparation, automated operations, and verification procedures.
+
+Deployment workflows are designed to support controlled updates and reduce operational risk.
+
+## Security & Reliability
+
+Security and reliability are central engineering priorities.
+
+The platform's development practices focus on:
+
+- Authentication and authorization
+- Administrative access protection
+- Secure checkout and payment integrations
+- Input validation
+- Data integrity
+- Sensitive information handling
+- Controlled deployments
+- Runtime diagnostics
+- Operational recovery planning
+
+These describe engineering priorities and implemented areas of work, not an independent security certification.
 
 ## Live Platform
 
-The public RocoShop platform is available at:
+RocoShop is publicly accessible at:
 
 ### [rocoshop.ir](https://rocoshop.ir)
 
-The public website demonstrates customer-facing functionality.
+The live platform demonstrates the customer-facing commerce experience.
 
-Administrative features, internal integrations, specialized components, and private infrastructure are not fully represented by the publicly accessible interface.
+Administrative workflows, internal APIs, and private infrastructure are not fully visible through the public website.
 
 ## Repository Scope
 
-This repository is a public technical showcase of the RocoShop software platform.
+This repository serves as a public technical showcase of RocoShop.
 
-RocoShop is a proprietary commercial project. Its implementation includes private application code, custom integrations, internal services, and infrastructure-related components.
+RocoShop is a proprietary commercial software platform. Its implementation includes private application code, integrations, administrative systems, and operational infrastructure.
 
-**The source code is not distributed through this repository.**
+**The production source code is not distributed through this repository.**
 
-This showcase documents the project's engineering scope and technology ecosystem without exposing:
+This showcase excludes:
 
-- Proprietary source code
+- Proprietary application source code
 - Private API implementations
-- Credentials or authentication secrets
+- Credentials and authentication secrets
 - Internal infrastructure configuration
-- Customer information
-- Confidential operational data
+- Customer and transaction data
+- Confidential operational information
 
 ---
 
