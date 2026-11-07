@@ -46,13 +46,15 @@ The platform incorporates technologies serving different responsibilities.
 
 ![PHP](https://img.shields.io/badge/PHP-0D1117?style=flat-square&logo=php&logoColor=777BB4)
 ![Laravel](https://img.shields.io/badge/Laravel-0D1117?style=flat-square&logo=laravel&logoColor=FF2D20)
-![SQL](https://img.shields.io/badge/SQL-0D1117?style=flat-square&logo=database&logoColor=4479A1)
+![MySQL](https://img.shields.io/badge/MySQL-0D1117?style=flat-square&logo=mysql&logoColor=4479A1)
+
+
 
 **Frontend & Asset Pipeline**
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-0D1117?style=flat-square&logo=javascript&logoColor=F7DF1E)
 ![HTML5](https://img.shields.io/badge/HTML5-0D1117?style=flat-square&logo=html5&logoColor=E34F26)
-![CSS3](https://img.shields.io/badge/CSS3-0D1117?style=flat-square&logo=css3&logoColor=1572B6)
+![CSS](https://img.shields.io/badge/CSS-0D1117?style=flat-square&logo=css&logoColor=663399)
 ![Vite](https://img.shields.io/badge/Vite-0D1117?style=flat-square&logo=vite&logoColor=646CFF)
 
 **Infrastructure & Engineering**
