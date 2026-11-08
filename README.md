@@ -27,6 +27,25 @@ The project is designed around maintainable business logic, secure customer work
 
 **Engineering Focus:** E-commerce architecture, backend engineering, API integration, authentication, payment workflows, automation, and production operations.
 
+
+## Platform Preview
+
+### Homepage — Commerce & Product Discovery
+
+A responsive storefront featuring product categories, navigation, search, and a unified digital commerce experience.
+
+<a href="./assets/homepage.webp">
+  <img src="./assets/homepage.webp" alt="RocoShop English homepage showing product categories, navigation, and storefront interface" width="100%" />
+</a>
+
+### Product Detail — Shopping Experience
+
+A product detail interface featuring an image gallery, product information, pricing, shopping cart actions, and checkout access.
+
+<a href="./assets/product-page.webp">
+  <img src="./assets/product-page.webp" alt="RocoShop product detail page with pricing, product information, Add to Cart, and Checkout buttons" width="100%" />
+</a>
+
 ## E-Commerce Capabilities
 
 | Area | Capabilities |
